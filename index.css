@@ -1,0 +1,66 @@
+body {
+  /*
+  background-color: #3d3d3d;
+  background: rgb(61,61,61);
+  background: linear-gradient(90deg, rgba(61,61,61,1) 0%, rgba(200,205,72,1) 91%, rgba(173,255,47,1) 100%);
+  */
+  /*background: rgb(61,61,61);
+  background: linear-gradient(90deg, rgba(61,61,61,1) 0%, rgba(119,121,50,1) 100%);
+  */
+  /* color: white; */
+  color: rgba(0, 0, 0, 0.8);
+}
+
+a {
+  /* color: #adff2f; */
+  color: rgb(97, 97, 97, 0.6);
+  text-decoration: none;
+}
+
+.tgme_page_photo_image {
+  width: 62px;
+  height: 62px;
+  border-radius: 61px;
+}
+
+.miro_image {
+  width: 16px;
+  height: 16px;
+}
+
+body {
+  /*#c9fbee, #f7f6b6, #eedaf9*/
+  /*#644bd9, #42a5a5, #aa28f1)*/
+  margin: 1px;
+  background: linear-gradient(262deg, #644bd9, #42a5a5, #aa28f1);
+  background-size: 600% 600%;
+
+  -webkit-animation: gradient-animation 12s ease infinite;
+  -moz-animation: gradient-animation 12s ease infinite;
+  animation: gradient-animation 12s ease infinite;
+}
+
+.container {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(262deg, #b7ffb200, #eee2ba, #d99ff800);
+  background-size: 900% 900%;
+  animation: gradient-animation 9s ease infinite;
+}
+
+@-webkit-keyframes gradient-animation {
+  0%{background-position:70% 0%}
+  50%{background-position:31% 90%}
+  100%{background-position:70% 0%}
+}
+@-moz-keyframes gradient-animation {
+  0%{background-position:70% 0%}
+  50%{background-position:31% 90%}
+  100%{background-position:70% 0%}
+}
+@keyframes gradient-animation {
+  0%{background-position:70% 0%}
+  50%{background-position:31% 90%}
+  100%{background-position:70% 0%}
+}
